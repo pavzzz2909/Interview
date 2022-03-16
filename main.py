@@ -18,7 +18,6 @@ class Stack(list):
             self.__delitem__(-1)
         return _item
 
-
     def peek(self):
         if not self.isEmpty():
             return self[-1]
